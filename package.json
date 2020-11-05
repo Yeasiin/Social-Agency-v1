@@ -1,0 +1,17 @@
+{
+  "name": "social-agency",
+  "version": "0.0.1",
+  "description": "Increase Your Social Media Presence",
+  "main": "index.html",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "build:sass": "node-sass sass/main.scss css/style.css",
+    "compress:sass": "node-sass css/style.css css/style.min.css --output-style compressed"
+  },
+  
+  "author": "Yeasin Arfat",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
